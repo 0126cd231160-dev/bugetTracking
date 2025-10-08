@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f9fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.balance h1 {
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.income-expense {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eef2ff;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.income-expense div {
+  flex: 1;
+  text-align: center;
+}
+
+.money.plus {
+  color: #2ecc71;
+}
+
+.money.minus {
+  color: #e74c3c;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border-left: 5px solid;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list li.plus {
+  border-color: #2ecc71;
+}
+
+.list li.minus {
+  border-color: #e74c3c;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #5848f0;
+}
